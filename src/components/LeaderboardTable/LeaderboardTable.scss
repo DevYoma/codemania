@@ -1,0 +1,40 @@
+.leaderboardTable{
+    border: 2px solid green;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    font-size: 14px;
+    padding: 15px 0;
+
+    th{
+        background-color: #242424;
+        color: #7E7F7F;
+        // color: red;
+        padding: 15px 0;
+
+         &:first-child {
+        padding-left: 16px; 
+        }
+    }
+
+    td{
+        color: white;
+        background-color: #1C1C1C;
+        // padding: 20px auto;
+        border-bottom: 1px solid #2E2E2E;
+        padding: 20px 0;
+
+        &:first-child {
+            padding-left: 16px; 
+        }
+
+    }
+
+    th, td {
+        text-align: left;
+    }
+
+    tr:hover {
+        background-color: #333;
+    }
+}

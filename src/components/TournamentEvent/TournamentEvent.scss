@@ -1,0 +1,63 @@
+.tournamentEvent{
+    // border: 1px solid red;
+    width: fit-content;
+    flex: 0 1 31.9%;
+
+    &Image{
+        width: 100%;
+    }
+
+    &Details{
+        padding: 12px 8px;
+        // border: 2px solid green;
+        background: #1C1C1C;
+
+        &Title{
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+
+        & > div:first-of-type{
+            // border: 1px solid green;
+            // display: flex;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 5px;
+            column-gap: 40px;
+
+            // div{
+            //     // border: 1px solid yellow;
+            //     padding: 4px 0;
+            //     color: #7E7F7F;
+            //     display: flex;
+            //     align-items: center;
+            //     gap: 5px;
+            //     font-size: 12px;
+            // }
+        }
+
+        &Price{
+            // display: none;
+            margin: 12px 0;
+            // background: #242424;
+            // display: flex;
+            // width: fit-content;
+            // padding: 8px 12px;
+            // display: flex;
+            // align-items: center;
+            // gap: 5px;
+            // border-radius: 99px;
+            // color: #7E7F7F;
+
+            // span{
+            //     font-size: 12px;
+            // }
+        }
+
+        &Buttons{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+}

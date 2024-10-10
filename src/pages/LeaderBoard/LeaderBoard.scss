@@ -1,0 +1,31 @@
+.leaderBoard{
+    // border: 1px solid red;
+    padding-bottom: 3rem;
+    &Banner{
+        width: 100%;
+    }
+
+    &Content{
+        margin: 32px 0px;
+        h1{
+            margin-bottom: 12px;
+            font-size: 2.5rem;
+            // font-weight: bolder;
+        }
+
+        &Description{
+            // border: 1px solid red;
+            margin: 12px 0;
+            font-size: 1rem;
+            color: #7E7F7F;
+            line-height: 20px;
+            font-weight: 400;
+        }
+        
+        &Info{
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.DetailPrice{
+    background: #242424;
+    display: flex;
+    width: fit-content;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 99px;
+    color: #7E7F7F;
+
+    span{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,40 @@
+.sidebar{
+    // display: flex;
+    position: fixed;
+    width: 15%;
+    padding-top: 28px;
+    height: calc(100vh - 100px);
+    border-right: 1px solid rgba(36, 36, 36, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &Content{
+        // border: 1px solid green;
+        margin-inline: auto ;
+        width: fit-content;
+
+        &Link{
+            padding: 12px 8px;
+            cursor: pointer;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            font-size: 12px;
+            margin-bottom: 8px;
+            color: rgba(126, 127, 127, 1);
+            text-decoration: none;
+
+            &:hover{
+                color: white;
+            }
+        }   
+    }
+
+    &Button{
+        margin-top: auto; 
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
